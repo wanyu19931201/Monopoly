@@ -1,0 +1,120 @@
+#main_page {
+	width: 80%;
+	margin: 0 auto;
+	background-color: skyblue;
+	height: 700px;
+	padding: 50px;
+}
+
+#map_left {
+	float: left;
+}
+
+#functionArea {
+	float: left;
+	width: 800px;
+	height: 400px;
+	border-style: double;
+}
+
+#map_right {
+	float: left;
+}
+
+.blank {
+	width: 100px;
+	height: 100px;
+	background-color: cornflowerblue;
+	border-color: black
+}
+
+#map_top>div,
+#functionArea>div,
+#map_bottom>div {
+	float: left;
+}
+
+#functionArea>div {
+	margin-top: 10px;
+	margin-left: 5px;
+	width: 190px;
+	height: 96%;
+
+
+}
+
+#functionArea button {
+	width: 150px;
+}
+
+#functionArea img {
+	padding: 35px;
+
+}
+
+#card {
+	background-color: cyan;
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 25px;
+}
+
+#function_show_statement>div {
+
+	height: 25%;
+	background-color: bisque;
+
+}
+
+.border_top_right {
+	border-width: 1.5px;
+	border-top-style: solid;
+	border-right-style: solid;
+
+}
+
+.border_top {
+	border-width: 1.5px;
+	border-top-style: solid;
+
+}
+
+.border_bottom_left {
+	border-width: 1.5px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.blank div {
+	height: 25px;
+	text-align: center;
+}
+
+.players {
+	background-color: coral;
+}
+
+.player_statement div {
+	text-align: center;
+}
+
+#show_message {
+
+	background-color: aquamarine;
+
+	overflow: scroll;
+}
+
+#show_message p {}
+
+#card p {
+	margin-left: 5px;
+
+}
+
+#new_place_messsage {
+	padding: 10px;
+	border: solid;
+	border-color: black;
+}
