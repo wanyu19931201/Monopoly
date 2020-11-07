@@ -106,7 +106,9 @@
 	overflow: scroll;
 }
 
-#show_message p {}
+#show_message p {
+	padding: 10px;
+}
 
 #card p {
 	margin-left: 5px;
